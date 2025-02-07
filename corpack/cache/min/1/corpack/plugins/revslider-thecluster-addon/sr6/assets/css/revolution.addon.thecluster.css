@@ -1,0 +1,18 @@
+.tp-thecluster svg a,
+.tp-thecluster svg d,
+.tp-thecluster svg g,
+.tp-thecluster svg polygon,
+.tp-thecluster svg rect,
+.tp-thecluster svg line .tp-thecluster svg text,
+.tp-thecluster svg circle,
+.tp-thecluster svg path {
+  transition: none;
+}
+#tp_svg_gradients {
+  visibility: hidden;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
